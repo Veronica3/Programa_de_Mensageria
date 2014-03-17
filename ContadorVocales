@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+main(){
+	int letra, contador;
+	contador=0
+	while((letra=get char()) != EOF){
+		if(letra==a ||letra==e ||letra==i ||letra==o || letra==u){
+			contador+=1;
+		}
+	}
+	printf ("El numero de vocales del texto es: %d\n" contador );
+
+}
